@@ -1,4 +1,4 @@
-file = open('file.txt', 'r')
+file = open('file', 'r')
 array = file.read().splitlines()
 array = list(map(int, array))
 
@@ -8,3 +8,4 @@ for i in range (0, lenght-2):
         for k in array[j+1:]:
             if (array[i]+array[j]+k) == 2020:
                 print(array[i]*array[j]*k)
+file.close()
