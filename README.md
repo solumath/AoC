@@ -1,4 +1,5 @@
-# AoC2020
+# AoC - Advent of Code
 
-Advent of Code 2020
-Python scripts for completing advent
+Python scripts for completing advent of code.
+
+Folders represent years of event.
